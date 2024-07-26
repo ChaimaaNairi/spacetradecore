@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+:root {
+  --primary-color: #6c5b7b; /* Deep Lilac */
+  --secondary-color: #bda0c7; /* Soft Lavender */
+  --accent-color: #ffffff; /* White */
+  --background-color: #f4f4f4; /* Light Gray */
+  --text-color: #333333; /* Dark Gray */
+}
+
+/* Example Usage */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+.product-card {
+  background-color: var(--accent-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 1rem;
+  text-align: center;
+}
